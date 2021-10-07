@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    font-family: Red Hat Display;
+}
+
+h1 {
+    padding-top: 1em;
+    margin: 0;
+}
+
+h3 {
+    text-align: left;
+    margin: 0;
+    padding-top: 17px;
+    padding-bottom: 5px;
+}
+
+p {
+    width: 80%;
+    margin: 1.5rem auto 4rem auto;
+    height: 2rem;
+    color: rgb(155, 155, 155);
+    line-height: 1.4;
+}
+
+.logo-img {
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.music-img {
+    float: left;
+    vertical-align: bottom;
+    margin-right: 5%;
+    margin-left: 10%;
+    padding-top: 17px;
+}
+
+.middle-container {
+    background-color: hsl(225, 100%, 98%);
+    width: 30%;
+    margin: 0 auto 10px auto;
+    padding-top: 0;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container {
+    margin: 30px 15px;
+    background-image: url("../images/pattern-background-desktop.svg");
+}
+
+.middle-container2 {
+    background-color: hsl(225, 100%, 96%);
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.price-p {
+    margin: 0;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.change-text {
+    float: right;
+    margin: auto 10% 5% auto;
+    padding-top: 30px;
+}
+
+.btn-proceed {
+    margin: 20px auto auto auto;
+	background:linear-gradient(to bottom, #262f96 5%, #408c99 100%);
+	background-color: hsl(245, 75%, 52%);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	width: 80%;
+	height: 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.btn-proceed:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #262f96 100%);
+	background-color:#408c99;
+}
+
+.btn-proceed:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-cancel {
+    margin: 20px auto auto auto;
+	background-color: hsl(225, 100%, 94%);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	width: 80%;
+	height: 40px;
+	text-decoration:none;
+}
+
+.btn-cancel:active {
+	position:relative;
+	top:1px;
+}
